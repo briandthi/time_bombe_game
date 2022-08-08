@@ -1,0 +1,43 @@
+--TIME BOMBE mobile--
+
+3 cartes jeu
+2 carte personnage
+
+1-lancement partie
+2-découverte du rôle
+3-Valider pour dire "PRET"
+
+--TOUR--
+4-Découverte de la main
+5-Valider pour dire "PRET"
+6-Annonce désamorçage
+7-Partage
+8-Annonce bombe partage
+9-découpe tour par tour
+
+Le master connait le jeu:
+-les joueurs
+-leur rôle
+-leur carte
+-les cartes déjà découverte
+-sait qui peut couper ou non
+
+Le slave connait:
+-sont rôle
+-ses cartes actuelles
+
+
+génération:
+-nb files de désamorçage= nb joueurs
+-nb bombe = 1
+-nb files neutres = nb joueurs x 5 - 1 (la bombe) - nb joueur (files désamorçage)
+
+
+--CORE gameplay--
+faire une version pour 3 joueurs
+-distribuer les carte
+-annoncer
+-couper
+-avancer dans les tours
+-conditions de victoire
+-multiples joueurs
